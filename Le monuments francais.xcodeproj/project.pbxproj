@@ -16,6 +16,7 @@
 		17ED656720C43A29003E2094 /* Monument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17ED656620C43A29003E2094 /* Monument.swift */; };
 		17ED656920C457D6003E2094 /* MonAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17ED656820C457D6003E2094 /* MonAnnotation.swift */; };
 		17ED656B20C46E5B003E2094 /* MonGeocoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17ED656A20C46E5B003E2094 /* MonGeocoder.swift */; };
+		17ED656D20C473B2003E2094 /* AnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17ED656C20C473B2003E2094 /* AnnotationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		17ED656620C43A29003E2094 /* Monument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monument.swift; sourceTree = "<group>"; };
 		17ED656820C457D6003E2094 /* MonAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonAnnotation.swift; sourceTree = "<group>"; };
 		17ED656A20C46E5B003E2094 /* MonGeocoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonGeocoder.swift; sourceTree = "<group>"; };
+		17ED656C20C473B2003E2094 /* AnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 		17ED656020C4263F003E2094 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				17ED656C20C473B2003E2094 /* AnnotationView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -174,6 +177,7 @@
 				17ED656720C43A29003E2094 /* Monument.swift in Sources */,
 				17ED654E20C42614003E2094 /* AppDelegate.swift in Sources */,
 				17ED656B20C46E5B003E2094 /* MonGeocoder.swift in Sources */,
+				17ED656D20C473B2003E2094 /* AnnotationView.swift in Sources */,
 				17ED656520C43134003E2094 /* CLLocationExtension.swift in Sources */,
 				17ED656920C457D6003E2094 /* MonAnnotation.swift in Sources */,
 				17ED656320C428C5003E2094 /* CarteController.swift in Sources */,

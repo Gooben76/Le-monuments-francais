@@ -22,6 +22,7 @@ class CarteController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         carteMap.showsUserLocation = true
+        carteMap.register(AnnotationView.self, forAnnotationViewWithReuseIdentifier: MKMapViewDefaultAnnotationViewReuseIdentifier)
         miseEnPlace()
         obtenirDonneesDesMonuments()
     }
