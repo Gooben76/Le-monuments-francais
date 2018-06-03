@@ -32,13 +32,33 @@ class CarteController: UIViewController {
             guard data != nil else {return}
             do {
                 self.monuments = try JSONDecoder().decode([Monument].self, from: data!)
-                for monument in self.monuments {
-                    print(monument.name)
+                DispatchQueue.main.async {
+                    self.insererAnnotations()
                 }
             } catch {
                 print(error.localizedDescription)
             }
         }.resume()
+    }
+    
+    func insererAnnotations() {
+        for monument in self.monuments {
+            if let latitudeString = monument.latitude, let longitudeString = monument.longitude {
+                if let latitude = Double(latitudeString), let longitude = Double(longitudeString) {
+                    let coordonnee = CLLocationCoordinate2D(latitude: latitude, longitude: longitude)
+                    let titre = monument.name ?? ""
+                    let location = CLLocation(latitude: latitude, longitude: longitude)
+                    MonGeocoder.obtenir.adresseDepuis(location: location) { (adresse, err) -> (Void) in
+                        var adresseMonument = ""
+                        if adresse != nil {
+                            adresseMonument = adresse!
+                        }
+                        let monAnnotation = MonAnnotation(titre: titre, adresse: adresseMonument, coordonnees: coordonnee)
+                        self.carteMap.addAnnotation(monAnnotation)
+                    }
+                }
+            }
+        }
     }
     
     @IBAction func meLocaliserButton_onClick(_ sender: Any) {

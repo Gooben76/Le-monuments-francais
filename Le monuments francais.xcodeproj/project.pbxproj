@@ -14,6 +14,8 @@
 		17ED656320C428C5003E2094 /* CarteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17ED656220C428C5003E2094 /* CarteController.swift */; };
 		17ED656520C43134003E2094 /* CLLocationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17ED656420C43134003E2094 /* CLLocationExtension.swift */; };
 		17ED656720C43A29003E2094 /* Monument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17ED656620C43A29003E2094 /* Monument.swift */; };
+		17ED656920C457D6003E2094 /* MonAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17ED656820C457D6003E2094 /* MonAnnotation.swift */; };
+		17ED656B20C46E5B003E2094 /* MonGeocoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17ED656A20C46E5B003E2094 /* MonGeocoder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		17ED656220C428C5003E2094 /* CarteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarteController.swift; sourceTree = "<group>"; };
 		17ED656420C43134003E2094 /* CLLocationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLLocationExtension.swift; sourceTree = "<group>"; };
 		17ED656620C43A29003E2094 /* Monument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monument.swift; sourceTree = "<group>"; };
+		17ED656820C457D6003E2094 /* MonAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonAnnotation.swift; sourceTree = "<group>"; };
+		17ED656A20C46E5B003E2094 /* MonGeocoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonGeocoder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 			isa = PBXGroup;
 			children = (
 				17ED656620C43A29003E2094 /* Monument.swift */,
+				17ED656820C457D6003E2094 /* MonAnnotation.swift */,
+				17ED656A20C46E5B003E2094 /* MonGeocoder.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -167,7 +173,9 @@
 			files = (
 				17ED656720C43A29003E2094 /* Monument.swift in Sources */,
 				17ED654E20C42614003E2094 /* AppDelegate.swift in Sources */,
+				17ED656B20C46E5B003E2094 /* MonGeocoder.swift in Sources */,
 				17ED656520C43134003E2094 /* CLLocationExtension.swift in Sources */,
+				17ED656920C457D6003E2094 /* MonAnnotation.swift in Sources */,
 				17ED656320C428C5003E2094 /* CarteController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
