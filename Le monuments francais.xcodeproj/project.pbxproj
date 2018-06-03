@@ -12,6 +12,8 @@
 		17ED655520C42616003E2094 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17ED655420C42616003E2094 /* Assets.xcassets */; };
 		17ED655820C42616003E2094 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17ED655620C42616003E2094 /* LaunchScreen.storyboard */; };
 		17ED656320C428C5003E2094 /* CarteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17ED656220C428C5003E2094 /* CarteController.swift */; };
+		17ED656520C43134003E2094 /* CLLocationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17ED656420C43134003E2094 /* CLLocationExtension.swift */; };
+		17ED656720C43A29003E2094 /* Monument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17ED656620C43A29003E2094 /* Monument.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		17ED655720C42616003E2094 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17ED655920C42616003E2094 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		17ED656220C428C5003E2094 /* CarteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarteController.swift; sourceTree = "<group>"; };
+		17ED656420C43134003E2094 /* CLLocationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLLocationExtension.swift; sourceTree = "<group>"; };
+		17ED656620C43A29003E2094 /* Monument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monument.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				17ED656220C428C5003E2094 /* CarteController.swift */,
+				17ED656420C43134003E2094 /* CLLocationExtension.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -84,6 +89,7 @@
 		17ED656120C4264A003E2094 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				17ED656620C43A29003E2094 /* Monument.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -159,7 +165,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17ED656720C43A29003E2094 /* Monument.swift in Sources */,
 				17ED654E20C42614003E2094 /* AppDelegate.swift in Sources */,
+				17ED656520C43134003E2094 /* CLLocationExtension.swift in Sources */,
 				17ED656320C428C5003E2094 /* CarteController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

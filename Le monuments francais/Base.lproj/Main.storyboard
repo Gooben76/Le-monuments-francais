@@ -45,6 +45,9 @@
                                             <segment title="Hybride"/>
                                         </segments>
                                         <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <action selector="segmentCtrl_onClick:" destination="BYZ-38-t0r" eventType="valueChanged" id="BbG-SH-IeZ"/>
+                                        </connections>
                                     </segmentedControl>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -78,7 +81,6 @@
                         <outlet property="carteMap" destination="z2q-6i-wTz" id="0zn-Iw-eFg"/>
                         <outlet property="meLocaliserButton" destination="Jwf-hu-ohv" id="y7B-qg-Sio"/>
                         <outlet property="segmentCtrl" destination="72J-Lf-VfF" id="ZhI-cR-ow5"/>
-                        <outlet property="segmentCtrl_onClick" destination="72J-Lf-VfF" id="bFK-mm-cJN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
